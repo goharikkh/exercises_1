@@ -1,1 +1,1 @@
-# exercises_1
+# practice_1
