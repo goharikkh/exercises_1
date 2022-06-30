@@ -9,6 +9,6 @@ def tax(a):
     return float(tip(a)) * 0.2
 
 
-print('Tips ', tip(m))
-print('Taxes ', tax(m))
-print('Total ', tax(m) + tip(m))
+print(f'Tips {tip(m):.2f}$')
+print(f'Taxes {tax(m):.2f}$')
+print(f'Total {tip(m) + tax(m):.2f}$')
